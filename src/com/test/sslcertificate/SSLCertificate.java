@@ -17,6 +17,8 @@ public class SSLCertificate {
 		DesiredCapabilities dc= new DesiredCapabilities();
 		dc.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		WebDriver driver= new FirefoxDriver(dc);
+				System.out.println("1");
+
 
 	}
 
